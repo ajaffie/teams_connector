@@ -21,6 +21,7 @@ Internet access, Python 3, and the requests package are required.
 
 2. Create webhook(s) in desired MS Teams channels and add the urls to the `urls` list in `config.json`.
 3. For each webhook in `config.json`, either put a "\*" to include all notifications for that channel, or list the servers you want notifications to be sent to that channel for.
+*Optional:* You can specify custom names for servers to use instead of "Server <name>" in the messages. This is most useful for cases where the script executed automatically by a system such as Icinga or Nagios where the name specified is the internal name/FQDN and you want a more user-friendly message printed.
 4. Add `NotificationCommand` definition and `Notification` apply rules to your Icinga2/Nagios/etc. configurations.
 5. Stop cluttering your inbox and instead annoy everyone in MS Teams!
 

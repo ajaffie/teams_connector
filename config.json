@@ -2,7 +2,10 @@
     "urls": [
         {
             "servers": [],
-            "url": ""
+            "url": "",
+            "custom_names": {
+                "srv.example.com": "Example Substitution for 'Server srv.example.com'"
+            }
         }
     ]
 }
